@@ -34,5 +34,5 @@ clf.fit(iris.data,iris.target)
 
 prediction=clf.predict(df)
 
-st.subheader("THE TYPE OF THIS IRIS FLOWER IS:")
+st.subheader(" SO THE TYPE OF THIS IRIS FLOWER IS:")
 st.write(iris.target_names[prediction])
